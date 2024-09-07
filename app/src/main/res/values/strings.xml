@@ -9,4 +9,17 @@
     <string name="central_de_ajuda">Central de Ajuda</string>
     <string name="perguntas_frequentes">Perguntas frequentes</string>
     <string name="pesquisar">Pesquisar</string>
+    <string name="ir_para_a_terceira_tela">Ir para a Terceira tela</string>
+    <string name="entrar">Entrar</string>
+    <string name="desconhe_o_uma_compra_no_meu_cart_o_como_constestar">Desconheço uma compra no meu cartão. Como constestar?</string>
+    <string name="como_atualizar_meus_dados_pelo_aplicativo">Como atualizar meus dados pelo aplicativo?</string>
+    <string name="atualizar_seues_dados_no_super_app_muito_simpl">Atualizar seues dados no Super App é muito simpl...</string>
+    <string name="como_posso_emitir_o_comprovante_de_pagamento_de_um_imposto">Como posso emitir o comprovante de pagamento de um imposto?</string>
+    <string name="voc_consegue_emitir_o_comprovante_de_pagame">Você consegue emitir o comprovante de pagame...</string>
+    <string name="se_voc_teve_uma_transa_o_desconhecida_no_se">Se você teve uma transação desconhecida no se...</string>
+    <string name="como_fa_o_para_resgatar_o_valor_guardado_no_meu_porquinho">Como faço para resgatar o valor guardado no Meu Porquinho?</string>
+    <string name="solicite_a_segunda_via_do_seu_cart_o_pelo_super">Solicite a segunda via do seu cartão pelo Super...</string>
+    <string name="como_solicito_a_2_via_do_meu_cart_o_pf_mei">Como solicito a 2ª via do meu cartão PF/MEI?</string>
+    <string name="para_solicitar_resgate_de_investimentos_no_meu_p">Para solicitar resgate de investimentos no Meu P...</string>
+    <string name="canais_de_atendimento">Canais de atendimento</string>
 </resources>
