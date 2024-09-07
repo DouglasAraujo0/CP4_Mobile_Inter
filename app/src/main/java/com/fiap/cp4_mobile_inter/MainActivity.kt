@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        var btnEntrar: Button = findViewById(R.id.btnEntrar)
+        val btnEntrar: Button = findViewById(R.id.btnEntrar)
 
         btnEntrar.setOnClickListener{
             IrPraSegundaTela()
