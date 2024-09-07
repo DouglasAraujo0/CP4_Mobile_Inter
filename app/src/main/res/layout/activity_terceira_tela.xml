@@ -5,47 +5,81 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray_color"
     tools:context=".TerceiraTela">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/infointegrantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="Informações dos Integrantes"
+        android:fontFamily="monospace"
+        android:text="@string/informa_es_dos_integrantes"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/Douglasimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/infointegrantes"
         app:srcCompat="@drawable/douglas" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/douglasname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:text="Douglas Magalhães de Araújo"
+        android:layout_marginTop="40dp"
+        android:fontFamily="monospace"
+        android:text="@string/douglas_magalh_es_de_ara_jo"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/trabalhorealizado" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/rm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="RM - 552008"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="@string/rm_552008"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/douglasname" />
+
+    <TextView
+        android:id="@+id/trabalhorealizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:fontFamily="monospace"
+        android:text="@string/trabalho_realizado_por"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Douglasimg" />
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="251dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/volte_para_a_primeira_tela"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/rm" />
 </androidx.constraintlayout.widget.ConstraintLayout>

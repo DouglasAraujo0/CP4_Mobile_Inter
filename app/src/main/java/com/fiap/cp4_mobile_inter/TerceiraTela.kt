@@ -1,6 +1,8 @@
 package com.fiap.cp4_mobile_inter
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,15 @@ class TerceiraTela : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_terceira_tela)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        var btnvoltar: Button = findViewById(R.id.btnvoltar)
+
+        btnvoltar.setOnClickListener {
+            VoltarPraPrimeiraTela()
         }
+    }
+    private fun VoltarPraPrimeiraTela(){
+        val voltarPrimeiraTela = Intent(this, MainActivity::class.java)
+        startActivity(voltarPrimeiraTela)
     }
 }

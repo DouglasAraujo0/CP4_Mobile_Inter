@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CP4_Mobile_Inter</string>
+    <string name="informa_es_dos_integrantes">INFORMAÇÕES DOS INTEGRANTES</string>
+    <string name="todo">TODO</string>
+    <string name="douglas_magalh_es_de_ara_jo">Douglas Magalhães de Araújo</string>
+    <string name="rm_552008">RM - 552008</string>
+    <string name="trabalho_realizado_por">TRABALHO REALIZADO POR</string>
+    <string name="volte_para_a_primeira_tela">Volte para a primeira tela</string>
 </resources>
