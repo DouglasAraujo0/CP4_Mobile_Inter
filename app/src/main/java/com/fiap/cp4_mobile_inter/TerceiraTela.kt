@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class TerceiraTela : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +12,7 @@ class TerceiraTela : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_terceira_tela)
 
-        var btnvoltar: Button = findViewById(R.id.btnvoltar)
+        val btnvoltar: Button = findViewById(R.id.btnvoltar)
 
         btnvoltar.setOnClickListener {
             VoltarPraPrimeiraTela()
