@@ -22,4 +22,12 @@
     <string name="como_solicito_a_2_via_do_meu_cart_o_pf_mei">Como solicito a 2ª via do meu cartão PF/MEI?</string>
     <string name="para_solicitar_resgate_de_investimentos_no_meu_p">Para solicitar resgate de investimentos no Meu P...</string>
     <string name="canais_de_atendimento">Canais de atendimento</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="n_o_sei_minha_senha">Não sei minha senha</string>
+    <string name="trocar_ou_abrir_conta">Trocar ou abrir conta</string>
+    <string name="isafe">iSafe</string>
+    <string name="senha">Senha</string>
+    <string name="trocar">Trocar</string>
+    <string name="douglas_ara_jo">Douglas Araújo</string>
+    <string name="_187_468">***.187.468-**</string>
 </resources>

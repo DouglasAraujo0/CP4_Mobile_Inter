@@ -13,6 +13,7 @@
         android:layout_width="266dp"
         android:layout_height="153dp"
         android:layout_marginTop="28dp"
+        android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +36,7 @@
             android:layout_height="61dp"
             android:drawableEnd="@drawable/baseline_remove_red_eye_24"
             android:fontFamily="sans-serif-medium"
-            android:hint="Digite sua senha" />
+            android:hint="@string/digite_sua_senha" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:fontFamily="sans-serif-black"
-        android:text="Não sei minha senha"
+        android:text="@string/n_o_sei_minha_senha"
         android:textColor="#FF6F00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -59,7 +60,7 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="sans-serif-black"
-        android:text="Trocar ou abrir conta"
+        android:text="@string/trocar_ou_abrir_conta"
         android:textColor="#FF6F00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -71,7 +72,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="sans-serif-black"
-        android:text="iSafe"
+        android:text="@string/isafe"
         android:textColor="#FF6F00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/security" />
@@ -83,6 +84,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="24dp"
         android:background="#FFFFFF"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/baseline_security_24" />
@@ -91,9 +93,10 @@
         android:id="@+id/helpImg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#FFFFFF"
+        android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_help_outline_24" />
@@ -119,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Senha"
+        android:text="@string/senha"
         android:textColor="#A0A0A0"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -144,7 +147,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="sans-serif-black"
-            android:text="Trocar"
+            android:text="@string/trocar"
             android:textAlignment="viewEnd"
             android:textColor="#FF6F00"
             app:layout_constraintEnd_toEndOf="parent"
@@ -156,7 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:fontFamily="sans-serif-black"
-            android:text="Douglas Araújo"
+            android:text="@string/douglas_ara_jo"
             android:textAlignment="center"
             android:textColor="#A0A0A0"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -171,7 +174,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="1dp"
             android:fontFamily="sans-serif-black"
-            android:text="***.187.468-**"
+            android:text="@string/_187_468"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/iconImg"
@@ -183,6 +186,7 @@
             android:layout_width="49dp"
             android:layout_height="46dp"
             android:layout_marginStart="8dp"
+            android:contentDescription="TODO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
