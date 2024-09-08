@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">CP4_Mobile_Inter</string>
+    <string name="informa_es_dos_integrantes">INFORMAÇÕES DOS INTEGRANTES</string>
+    <string name="todo">TODO</string>
+    <string name="douglas_magalh_es_de_ara_jo">Douglas Magalhães de Araújo</string>
+    <string name="rm_552008">RM - 552008</string>
+    <string name="trabalho_realizado_por">TRABALHO REALIZADO POR</string>
+    <string name="volte_para_a_primeira_tela">Volte para a primeira tela</string>
+    <string name="central_de_ajuda">Central de Ajuda</string>
+    <string name="perguntas_frequentes">Perguntas frequentes</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="ir_para_a_terceira_tela">Ir para a Terceira tela</string>
+    <string name="entrar">Entrar</string>
+    <string name="desconhe_o_uma_compra_no_meu_cart_o_como_constestar">Desconheço uma compra no meu cartão. Como constestar?</string>
+    <string name="como_atualizar_meus_dados_pelo_aplicativo">Como atualizar meus dados pelo aplicativo?</string>
+    <string name="atualizar_seues_dados_no_super_app_muito_simpl">Atualizar seues dados no Super App é muito simpl...</string>
+    <string name="como_posso_emitir_o_comprovante_de_pagamento_de_um_imposto">Como posso emitir o comprovante de pagamento de um imposto?</string>
+    <string name="voc_consegue_emitir_o_comprovante_de_pagame">Você consegue emitir o comprovante de pagame...</string>
+    <string name="se_voc_teve_uma_transa_o_desconhecida_no_se">Se você teve uma transação desconhecida no se...</string>
+    <string name="como_fa_o_para_resgatar_o_valor_guardado_no_meu_porquinho">Como faço para resgatar o valor guardado no Meu Porquinho?</string>
+    <string name="solicite_a_segunda_via_do_seu_cart_o_pelo_super">Solicite a segunda via do seu cartão pelo Super...</string>
+    <string name="como_solicito_a_2_via_do_meu_cart_o_pf_mei">Como solicito a 2ª via do meu cartão PF/MEI?</string>
+    <string name="para_solicitar_resgate_de_investimentos_no_meu_p">Para solicitar resgate de investimentos no Meu P...</string>
+    <string name="canais_de_atendimento">Canais de atendimento</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="n_o_sei_minha_senha">Não sei minha senha</string>
+    <string name="trocar_ou_abrir_conta">Trocar ou abrir conta</string>
+    <string name="isafe">iSafe</string>
+    <string name="senha">Senha</string>
+    <string name="trocar">Trocar</string>
+    <string name="douglas_ara_jo">Douglas Araújo</string>
+    <string name="_187_468">***.187.468-**</string>
 </resources>
